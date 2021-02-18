@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: pink;
+}
+/* .myMargin{
+    margin: 25px;
+}
+.new-margin{
+    margin-top: 30%;
+} */
+
+/* COMMON */
+
+.basemargin{
+    margin: 3% 20% 0% 20%;
+    align-content: center;
+}
+.forgrid{
+    margin-top: 5%;
+}
+.content{
+margin: 2px 100px 60px 100px;
+
+}
+img{
+    width: 140%;
+}
+
+
+.lasttwo{
+    margin: 2px 150px 60px 150px;
+}
