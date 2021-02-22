@@ -2,9 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
-body{
-    background-color: pink;
-}
+
 /* .myMargin{
     margin: 25px;
 }
@@ -25,11 +23,85 @@ body{
 margin: 2px 100px 60px 100px;
 
 }
-img{
+/* img{
     width: 140%;
-}
+} */
 
-
-.lasttwo{
+.lasttwo2{
     margin: 2px 150px 60px 150px;
 }
+/* .carousel {
+    widows: 700px;
+    height:600px;
+  } */
+
+
+/* .ig1, .ig2, .ig3, .ig4, .ig5, .ig6, .ig7{
+    width: 343px;
+    height: 262px;
+}
+.ig8, .ig9, .ig10, .ig11, .ig12, .ig13, .ig14{
+    width: 343px;
+    height: 262px;
+} */
+
+
+
+/* .ig2{
+    width: 343px;
+    height: 262px;
+} */
+
+.card-bg {
+        background-color:  rgb(238, 242, 252)!important;
+        
+}
+
+.card-cont {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .ig1:hover,.ig2:hover, .ig3:hover, .ig4:hover, .ig5:hover, .ig6:hover, .ig7:hover {
+    opacity: 0.3;
+  }
+  
+.ig8:hover, .ig9:hover, .ig10:hover, .ig11:hover, .ig12:hover, .ig13:hover, .ig14:hover {
+    opacity: 0.3;
+  }
+
+
+
+  /* .card-con:hover .image {
+    opacity: 0.3;
+  } */
+  
+  .card-con:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
