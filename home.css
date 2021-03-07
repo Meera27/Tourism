@@ -1,14 +1,50 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* .myMargin{
-    margin: 25px;
+header {
+  /* align-content:right; */
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252a;
+  height: 50px;
 }
-.new-margin{
-    margin-top: 30%;
-} */
+
+.logo {
+  cursor: pointer;
+}
+
+.nav__links a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav__links {
+  list-style: none;
+  display:flex;
+  float: right;
+  margin-top: 6%;
+}
+
+ .nav__links li {
+  padding: 0px 20px;
+} 
+
+.nav__links li a {
+  transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+ color: #71D41A;
+  /* color: #0088a9; */
+}
+
 
 /* COMMON */
 
@@ -23,34 +59,12 @@
 margin: 2px 100px 60px 100px;
 
 }
-/* img{
-    width: 140%;
-} */
+
 
 .lasttwo2{
+  
     margin: 2px 150px 60px 150px;
 }
-/* .carousel {
-    widows: 700px;
-    height:600px;
-  } */
-
-
-/* .ig1, .ig2, .ig3, .ig4, .ig5, .ig6, .ig7{
-    width: 343px;
-    height: 262px;
-}
-.ig8, .ig9, .ig10, .ig11, .ig12, .ig13, .ig14{
-    width: 343px;
-    height: 262px;
-} */
-
-
-
-/* .ig2{
-    width: 343px;
-    height: 262px;
-} */
 
 .card-bg {
         background-color:  rgb(238, 242, 252)!important;
@@ -89,19 +103,24 @@ margin: 2px 100px 60px 100px;
     opacity: 0.3;
   }
 
+  .card-con:hover .image {
+    opacity: 0.6;
+  }
 
-
-  /* .card-con:hover .image {
-    opacity: 0.3;
-  } */
-  
   .card-con:hover .middle {
-    opacity: 1;
+    opacity: 1;  
   }
   
   .text {
-    background-color: #4CAF50;
-    color: white;
-    font-size: 16px;
+    font-size: 20px;
     padding: 16px 32px;
+  }
+
+  .text a{
+    text-decoration: none;
+    color: yellowgreen;
+  }
+ 
+  .image{
+    box-shadow: 12px 7px 5px rgba(0, 27, 45, 0.4);
   }
