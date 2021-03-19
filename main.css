@@ -1,0 +1,79 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    /* background-image: url("/images/anamudi.jpg"); */
+}
+
+header {
+    /* align-content:right; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 30px 10%;
+    background-color:transparent;
+    height: 50px;
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+  
+  .nav__links a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display:flex;
+    float: right;
+    margin-top: 6%;
+  }
+  
+.nav__links li {
+    padding: 0px 20px  !important;
+    background-color: transparent !important;
+  } 
+  
+  .nav__links li a {
+    transition: color 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+   color: #71D41A;
+    /* color: #0088a9; */
+  }
+.container{
+    left: 0;
+    /* padding:10% 10% 10% 0%; */
+    padding: 10%
+}
+
+.sidebar li {
+    display: block;
+    text-decoration: none;
+    list-style: none;
+
+    background-color: pink;
+    height: 50%;
+    width: 20%;
+    padding: 2%;
+    margin: 2%;
+  }
+.sidebar{
+    left: 0px;
+    text-align: center;
+  }
+.sidebar div{
+   width: fit-content;
+  }
+
+/* li{
+    background-color: pink;
+    height: 50%;
+    width: 20%;
+    padding: 2%;
+    margin: 2%;
+} */
