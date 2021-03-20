@@ -138,3 +138,9 @@ margin: 2px 100px 60px 100px;
   .carousel-item .img-fluid {
     width:100%;
   }
+  @media (min-width: 768px) {
+    .w-auto {
+        max-width: 100%;
+        max-height: auto;
+    }
+}

@@ -28,7 +28,7 @@ li{
 
 .carousel-item {
      height: 100vh; 
-    min-height: 350px;
+     min-height: 350px;
     background: no-repeat center center scroll;
     background-size: cover;
     position: relative;
@@ -112,7 +112,8 @@ li{
   }
 
   @media (min-width: 768px) {
-    .w-auto {
+    .w-auto 
+    {
         max-width: 100%;
         max-height: auto;
     }
