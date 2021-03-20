@@ -41,10 +41,11 @@ li{
     font-size: 350%;
   }
 
+
 .ftable{
-    max-width: 90%;
+    max-width: 30%;
     margin:auto;
-    width: 43%;
+    width: 30%;
     table-layout: fixed;
     padding: 2% 0% 2% 0%;
   }
@@ -68,9 +69,10 @@ li{
 
   .flip-card {
     background-color: transparent;
-    width: 300px;
-    height: 300px;
-    perspective: 1000px;
+    width: 350px;
+    height: 400px;
+    /* perspective: 1000px; */
+    padding: 2% 2% 2% 2%;
   
   }
   
@@ -87,4 +89,12 @@ li{
   
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
+  }
+
+  .flip-card-back p{
+    font-size: 15px;
+  }
+
+  .flip-card-back p{
+    padding: 5%;
   }
