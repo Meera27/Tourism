@@ -10,7 +10,7 @@ li{
 
 .header a{
   text-decoration: none;
-  color: white !important;
+  color: #FFEB3B !important;
 }
 
 .header li a:hover{
@@ -18,13 +18,18 @@ li{
   transform:scale(1.5)
 }
 
+/* .w-auto{
+  width: 100%;
+  max-width: auto;
+  max-height: auto;
+  position: absolute;
+  height: auto;
+} */
+
 .carousel-item {
-    height: 100vh;
+     height: 100vh; 
     min-height: 350px;
     background: no-repeat center center scroll;
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover; */
     background-size: cover;
     position: relative;
   }
@@ -49,6 +54,13 @@ li{
     table-layout: fixed;
     padding: 2% 0% 2% 0%;
   }
+
+
+  .table{
+    padding-top:5%; 
+    height: 100%;
+  }
+
   .newlink a{
     color: black;
     text-decoration: none;
@@ -73,6 +85,7 @@ li{
     height: 400px;
     /* perspective: 1000px; */
     padding: 2% 2% 2% 2%;
+    padding-left: 2%;
   
   }
   
@@ -84,7 +97,6 @@ li{
     transition: transform 0.6s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    
   }
   
   .flip-card:hover .flip-card-inner {
@@ -93,8 +105,15 @@ li{
 
   .flip-card-back p{
     font-size: 15px;
-  }
-
-  .flip-card-back p{
     padding: 5%;
   }
+  .colimg{
+    padding: 1%;
+  }
+
+  @media (min-width: 768px) {
+    .w-auto {
+        max-width: 100%;
+        max-height: auto;
+    }
+}
