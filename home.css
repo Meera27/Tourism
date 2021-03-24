@@ -4,30 +4,14 @@
   padding: 0;
 }
 
-header {
-  /* align-content:right; */
+/* header {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   padding: 30px 10%;
   background-color: #24252a;
   height: 50px;
 }
-.carousel-item {
-  height: 95vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; */
-  background-size: cover;
-  position: relative;
-}
 
-/* 
-.carousel-item{
-  min-height: 75%;
-} */
 .logo {
   cursor: pointer;
 }
@@ -56,8 +40,52 @@ header {
 
 .nav__links li a:hover {
  color: #71D41A;
-  /* color: #0088a9; */
+} */
+
+
+li{
+  list-style: none;
+  display: flex; 
+  float:right;
+  padding-left: 20%;
 }
+.li div{
+  align-content:right;
+}
+
+.header a{
+  text-decoration: none;
+  color: #FFEB3B !important;
+}
+
+.header li a:hover{
+  color: white;
+  transform:scale(1.5)
+}
+
+
+.carousel-item {
+  height: auto; 
+  min-height: 350px;
+ background: no-repeat center center scroll;
+ background-size: cover;
+ position: relative;
+ width: 100%;
+}
+
+
+p{
+  text-align: center;
+}
+#first{
+  font-family: 'Source Sans Pro' sans-serif;
+  font-size: 500%;
+}
+#second{
+  font-family: 'Dancing Script', cursive;
+  font-size: 350%;
+}
+
 
 
 /* COMMON */

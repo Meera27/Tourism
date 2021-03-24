@@ -27,7 +27,7 @@ li{
 } */
 
 .carousel-item {
-     height: 100vh; 
+     height: auto; 
      min-height: 350px;
     background: no-repeat center center scroll;
     background-size: cover;
@@ -111,10 +111,6 @@ li{
     padding: 1%;
   }
 
-  @media (min-width: 768px) {
-    .w-auto 
-    {
-        max-width: 100%;
-        max-height: auto;
-    }
-}
+  .carousel-item .img-fluid {
+    width:100%;
+  }
