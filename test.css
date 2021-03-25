@@ -1,4 +1,6 @@
-
+body{
+  background-color: #EEF2FC;
+}
 li{
   list-style: none;
   display: flex; 
@@ -39,7 +41,7 @@ li{
     text-align: center;
   }
   #first{
-    font-family: 'Source Sans Pro' sans-serif;
+    font-family: 'Dela Gothic One', cursive;
     font-size: 500%;
   }
   #second{
